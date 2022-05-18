@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47BCF50F2835912F0021A347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF50E2835912F0021A347 /* AppDelegate.swift */; };
+		47BCF5112835912F0021A347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF5102835912F0021A347 /* SceneDelegate.swift */; };
+		47BCF5132835912F0021A347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF5122835912F0021A347 /* ViewController.swift */; };
+		47BCF518283591310021A347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BCF517283591310021A347 /* Assets.xcassets */; };
+		47BCF51B283591310021A347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BCF519283591310021A347 /* LaunchScreen.storyboard */; };
+		47BCF523283591910021A347 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF522283591910021A347 /* MyTableViewCell.swift */; };
+		47BCF5252835923F0021A347 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF5242835923F0021A347 /* CoreDataStack.swift */; };
+		47BCF528283593810021A347 /* MealTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF526283593810021A347 /* MealTime.xcdatamodeld */; };
+		47BCF52D283596EF0021A347 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF529283596EF0021A347 /* Meal+CoreDataClass.swift */; };
+		47BCF52E283596EF0021A347 /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF52A283596EF0021A347 /* Meal+CoreDataProperties.swift */; };
+		47BCF52F283596EF0021A347 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF52B283596EF0021A347 /* User+CoreDataClass.swift */; };
+		47BCF530283596EF0021A347 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCF52C283596EF0021A347 /* User+CoreDataProperties.swift */; };
+		47BCF5372835A4840021A347 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 47BCF5362835A4840021A347 /* .gitignore */; };
+		775D976319DFFF30406F2307 /* Pods_MealTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271532F2B7A4D76EC55F12C6 /* Pods_MealTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271532F2B7A4D76EC55F12C6 /* Pods_MealTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BCF50B2835912F0021A347 /* MealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BCF50E2835912F0021A347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47BCF5102835912F0021A347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47BCF5122835912F0021A347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47BCF517283591310021A347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47BCF51A283591310021A347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47BCF51C283591310021A347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BCF522283591910021A347 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		47BCF5242835923F0021A347 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		47BCF527283593810021A347 /* MealTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealTime.xcdatamodel; sourceTree = "<group>"; };
+		47BCF529283596EF0021A347 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		47BCF52A283596EF0021A347 /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		47BCF52B283596EF0021A347 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		47BCF52C283596EF0021A347 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		47BCF5362835A4840021A347 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		618709816FB34035E2A014EC /* Pods-MealTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealTime.release.xcconfig"; path = "Target Support Files/Pods-MealTime/Pods-MealTime.release.xcconfig"; sourceTree = "<group>"; };
+		B1FA7C85184E2673A9FE8537 /* Pods-MealTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealTime.debug.xcconfig"; path = "Target Support Files/Pods-MealTime/Pods-MealTime.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47BCF5082835912F0021A347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D976319DFFF30406F2307 /* Pods_MealTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015B939D16BCFE67F6536DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA7C85184E2673A9FE8537 /* Pods-MealTime.debug.xcconfig */,
+				618709816FB34035E2A014EC /* Pods-MealTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47BCF5022835912F0021A347 = {
+			isa = PBXGroup;
+			children = (
+				47BCF50D2835912F0021A347 /* MealTime */,
+				47BCF50C2835912F0021A347 /* Products */,
+				015B939D16BCFE67F6536DC1 /* Pods */,
+				AF2CE75EDD4964BAFFD17E2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47BCF50C2835912F0021A347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47BCF50B2835912F0021A347 /* MealTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47BCF50D2835912F0021A347 /* MealTime */ = {
+			isa = PBXGroup;
+			children = (
+				47BCF5352835A3CE0021A347 /* Others */,
+				47BCF5322835A3910021A347 /* Model */,
+				47BCF5332835A39B0021A347 /* View */,
+				47BCF5342835A3AF0021A347 /* ViewControllers */,
+			);
+			path = MealTime;
+			sourceTree = "<group>";
+		};
+		47BCF531283597040021A347 /* CoreDataEntities */ = {
+			isa = PBXGroup;
+			children = (
+				47BCF529283596EF0021A347 /* Meal+CoreDataClass.swift */,
+				47BCF52A283596EF0021A347 /* Meal+CoreDataProperties.swift */,
+				47BCF52B283596EF0021A347 /* User+CoreDataClass.swift */,
+				47BCF52C283596EF0021A347 /* User+CoreDataProperties.swift */,
+			);
+			path = CoreDataEntities;
+			sourceTree = "<group>";
+		};
+		47BCF5322835A3910021A347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47BCF5242835923F0021A347 /* CoreDataStack.swift */,
+				47BCF526283593810021A347 /* MealTime.xcdatamodeld */,
+				47BCF531283597040021A347 /* CoreDataEntities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47BCF5332835A39B0021A347 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47BCF522283591910021A347 /* MyTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47BCF5342835A3AF0021A347 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				47BCF5122835912F0021A347 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		47BCF5352835A3CE0021A347 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				47BCF5362835A4840021A347 /* .gitignore */,
+				47BCF50E2835912F0021A347 /* AppDelegate.swift */,
+				47BCF5102835912F0021A347 /* SceneDelegate.swift */,
+				47BCF517283591310021A347 /* Assets.xcassets */,
+				47BCF519283591310021A347 /* LaunchScreen.storyboard */,
+				47BCF51C283591310021A347 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		AF2CE75EDD4964BAFFD17E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				271532F2B7A4D76EC55F12C6 /* Pods_MealTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47BCF50A2835912F0021A347 /* MealTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BCF51F283591310021A347 /* Build configuration list for PBXNativeTarget "MealTime" */;
+			buildPhases = (
+				FC7B70BF385747252EF38802 /* [CP] Check Pods Manifest.lock */,
+				47BCF5072835912F0021A347 /* Sources */,
+				47BCF5082835912F0021A347 /* Frameworks */,
+				47BCF5092835912F0021A347 /* Resources */,
+				1601F2062D89B2028C7ECDE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealTime;
+			productName = MealTime;
+			productReference = 47BCF50B2835912F0021A347 /* MealTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47BCF5032835912F0021A347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					47BCF50A2835912F0021A347 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 47BCF5062835912F0021A347 /* Build configuration list for PBXProject "MealTime" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47BCF5022835912F0021A347;
+			productRefGroup = 47BCF50C2835912F0021A347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47BCF50A2835912F0021A347 /* MealTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47BCF5092835912F0021A347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BCF51B283591310021A347 /* LaunchScreen.storyboard in Resources */,
+				47BCF5372835A4840021A347 /* .gitignore in Resources */,
+				47BCF518283591310021A347 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1601F2062D89B2028C7ECDE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealTime/Pods-MealTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MealTime/Pods-MealTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MealTime/Pods-MealTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7B70BF385747252EF38802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47BCF5072835912F0021A347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BCF5252835923F0021A347 /* CoreDataStack.swift in Sources */,
+				47BCF5132835912F0021A347 /* ViewController.swift in Sources */,
+				47BCF52E283596EF0021A347 /* Meal+CoreDataProperties.swift in Sources */,
+				47BCF52D283596EF0021A347 /* Meal+CoreDataClass.swift in Sources */,
+				47BCF523283591910021A347 /* MyTableViewCell.swift in Sources */,
+				47BCF52F283596EF0021A347 /* User+CoreDataClass.swift in Sources */,
+				47BCF528283593810021A347 /* MealTime.xcdatamodeld in Sources */,
+				47BCF50F2835912F0021A347 /* AppDelegate.swift in Sources */,
+				47BCF530283596EF0021A347 /* User+CoreDataProperties.swift in Sources */,
+				47BCF5112835912F0021A347 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47BCF519283591310021A347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BCF51A283591310021A347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47BCF51D283591310021A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47BCF51E283591310021A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47BCF520283591310021A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FA7C85184E2673A9FE8537 /* Pods-MealTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7288C3T3B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealTime/Others/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bohdan.bondar.MealTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		47BCF521283591310021A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618709816FB34035E2A014EC /* Pods-MealTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7288C3T3B9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MealTime/Others/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bohdan.bondar.MealTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47BCF5062835912F0021A347 /* Build configuration list for PBXProject "MealTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BCF51D283591310021A347 /* Debug */,
+				47BCF51E283591310021A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BCF51F283591310021A347 /* Build configuration list for PBXNativeTarget "MealTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BCF520283591310021A347 /* Debug */,
+				47BCF521283591310021A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47BCF526283593810021A347 /* MealTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47BCF527283593810021A347 /* MealTime.xcdatamodel */,
+			);
+			currentVersion = 47BCF527283593810021A347 /* MealTime.xcdatamodel */;
+			path = MealTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47BCF5032835912F0021A347 /* Project object */;
+}
